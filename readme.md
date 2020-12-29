@@ -1,10 +1,13 @@
 ## Javascript beginner projects
 
-* My JS beginner project which I created
+My JS beginner project which I created and practice to learn Javascript
 
-## List projects
+### List projects
 
 - Change background color using Javascript
 - Accorfion tabs using Javascript
+- Password Validate with Javascript
 
-### Info
+#### Description
+
+You can see my project at [https://ehsanghaffarii](https://ehsanghaffarii.ir)
