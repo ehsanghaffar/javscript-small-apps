@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.body-class {
+  background: #aaaaaa;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.jsCss {
+  color: rgb(251, 255, 0);
+}
+
+.designCss {
+  color: chocolate;
+}
+
+.wpCss {
+  color: rgb(18, 90, 245);
+}
