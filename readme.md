@@ -5,8 +5,11 @@ My JS beginner project which I created and practice to learn Javascript
 ### List projects
 
 - Change background color using Javascript
-- Accorfion tabs using Javascript
+- Accordion tabs using Javascript
 - Password Validate with Javascript
+- Clock with Javascript
+- Javascript Algorithms like selection-sort, bubble-sort & ...
+-
 
 #### Description
 
