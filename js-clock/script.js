@@ -18,8 +18,6 @@ const showClock = () => {
   // add to clock element
   clock.innerText = `${h}:${m}:${s}`;
   
-  setTimeout(showClock, 1000);
-  
+  setTimeout(showClock, 1000); 
 }
-
 showClock()
