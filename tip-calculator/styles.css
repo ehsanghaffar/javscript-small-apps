@@ -1,0 +1,51 @@
+
+rt url("https://fonts.googleapis.com/css2?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator input {
+  margin: 16px 0;
+  height: 40px;
+  width: 20rem;
+  padding: 10px;
+}
+
+.calculateBtn {
+  font-size: 16px;
+  padding: 6px 25px;
+  width: 100%;
+  background: #22d3ee;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.result {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid gainsboro;
+  box-shadow: -3px 4px 11px 0px rgba(0, 0, 0, 0.41);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
