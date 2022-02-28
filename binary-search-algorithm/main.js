@@ -1,4 +1,10 @@
-// Binary search assumes the array (or any other data structure) you are searching in is ordered.
+/**
+ * Binary search assumes the array (or any other data structure) you are searching in is ordered.
+ * @param {object} list
+ * @param {string} item
+ * @returns {number}
+ * @author: Ehsan Ghaffar
+ */
 
 const binarySearch = (list, item) => {
   let low = 0;

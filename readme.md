@@ -1,6 +1,11 @@
-## Javascript beginner projects
+# Javascript beginner projects
 
 My JS beginner project which I created and practice to learn Javascript
+
+## Installation
+
+[]: # Language: JavaScript
+[]: # Path: readme.md
 
 ### List projects
 
@@ -19,6 +24,7 @@ My JS beginner project which I created and practice to learn Javascript
 - Javascript Regex pattern
 - Javascript Sort Array
 - Javascript RGB to Hex
+- Javascript String to Uppercase
 
 #### Description
 
