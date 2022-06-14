@@ -4,8 +4,7 @@ My JS beginner project which I created and practice to learn Javascript
 
 ## Installation
 
-[]: # Language: JavaScript
-[]: # Path: readme.md
+...
 
 ### List projects
 
@@ -25,6 +24,13 @@ My JS beginner project which I created and practice to learn Javascript
 - Javascript Sort Array
 - Javascript RGB to Hex
 - Javascript String to Uppercase
+- Javascript Clock
+- Javascript Touch Events
+- Javascript Vanilla Web Component
+- Javascript Generate OTP
+- Javascript Guess Number
+- Javascript Create Custom Element
+- And many more...
 
 #### Description
 
