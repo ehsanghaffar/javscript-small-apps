@@ -125,7 +125,7 @@ text.addEventListener("input", (e) => {
   }
 });
 
-// Settings btn click
+// Settings btn click event
 settingsBtn.addEventListener("click", () => settings.classList.toggle("hide"));
 
 // Settings select
