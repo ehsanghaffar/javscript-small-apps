@@ -30,6 +30,7 @@ My JS beginner project which I created and practice to learn Javascript
 - Javascript Generate OTP
 - Javascript Guess Number
 - Javascript Create Custom Element
+- Javascript program to find the factorial of a number
 - And many more...
 
 #### Description
