@@ -1,0 +1,22 @@
+<!-- this script just work on IE -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form name="form1">
+      <input type="button" onclick="test()" value="Open File" />
+      <br />
+    </form>
+    <script>
+      function test() {
+        let Excel = new ActiveXObject("Excel.Application");
+        Excel.Visible = true;
+
+        Excel.Workbooks.Open("kar.xlsx");
+      }
+    </script>
+  </body>
+</html>
