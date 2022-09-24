@@ -9,6 +9,7 @@ original;
 const unchanging = [1, 2, 3, 4, 5];
 // shift
 const [value, ...rest] = unchanging;
+console.log("value", value, "rest", rest)
 value;
 rest;
 // unshift
