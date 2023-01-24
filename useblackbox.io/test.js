@@ -90,8 +90,8 @@ app.get("/posts", [
 
         res.render("blog/posts", {
             "posts": req.posts
-        });
+        }); 
     }
 ], function(req, res) {
-  stack.handle(req, res);
+    stack.handle(req, res);
 });
