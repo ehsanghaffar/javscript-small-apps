@@ -26,3 +26,38 @@ const uniqueArr = (arr) => [...new Set(arr)];
 
 console.log(uniqueArr([1, 2, 3, 1, 2, 3, 4, 5]));
 // [1, 2, 3, 4, 5]
+
+
+// Check if a variable is an array
+const isArray = (arr) => Array.isArray(arr);
+
+console.log(isArray([1, 2, 3]));
+// true
+console.log(isArray({ name: 'Ovi' }));
+// false
+console.log(isArray('Hello World'));
+// false
+
+
+//  Generate a random number between two numbers
+const randomBetweenTwoNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+console.log(randomBetweenTwoNumber(1, 50));
+
+
+// Generate a random string (unique id?)
+const randomString = () => Math.random().toString(36).slice(2);
+
+console.log(randomString());
+
+
+// Scroll to the top of the page
+const scrollToTop = () => window.scrollTo(0, 0);
+
+scrollToTop();
+
+
+// Calculate number of days between two dates
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+
+console.log(daysDiff(new Date('2021-05-10'), new Date('2021-11-25')));
