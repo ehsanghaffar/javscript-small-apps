@@ -61,3 +61,62 @@ scrollToTop();
 const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
 
 console.log(daysDiff(new Date('2021-05-10'), new Date('2021-11-25')));
+
+
+// Copy text to clipboard
+const copyTextToClipboard = async (text) => {
+  await navigator.clipboard.writeText(text);
+};
+
+
+// Different ways of merging multiple arrays
+// Merge without remove the duplications
+const merge = (a, b) => a.concat(b);
+// Or
+const merge = (a, b) => [...a, ...b];
+
+// Merge with remove the duplications
+const merge = [...new Set(a.concat(b))];
+// Or
+const merge = [...new Set([...a, ...b])];
+
+
+// Truncate string at the end
+const truncateString = (string, length) => {
+  return string.length < length ? string : `${string.slice(0, length - 3)}...`;
+};
+
+console.log(
+  truncateString('Hi, I should be truncated because I am too loooong!', 36),
+);
+// Hi, I should be truncated because...
+
+
+// Truncate string from the middle
+const truncateStringMiddle = (string, length, start, end) => {
+  return `${string.slice(0, start)}...${string.slice(string.length - end)}`;
+};
+
+console.log(
+  truncateStringMiddle(
+    'A long story goes here but then eventually ends!', // string
+    25, // total size needed
+    13, // chars to keep from start
+    17, // chars to keep from end
+  ),
+);
+// A long story ... eventually ends!
+
+
+// Capitalizing a string
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+
+console.log(capitalize('hello world'));
+// Hello world
+
+
+// Check if the user is on an Apple device
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+
+console.log(isAppleDevice);
+// true/false
